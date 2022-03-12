@@ -1,0 +1,145 @@
+2022-03-12 18:00:59,085 WARN  [SoapUI] Missing folder [C:\Users\user\Desktop\soap ui\my-app\ext] for external libraries
+2022-03-12 18:00:59,363 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\user\soapui-settings.xml]
+2022-03-12 18:01:00,500 WARN  [SoapUI] Plugin 'ready-uxm-plugin-os-1.0.3.jar' is not loaded because it hasn't been signed by SmartBear Software.
+2022-03-12 18:01:00,919 INFO  [PluginManager] Adding plugin from [C:\Users\user\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2022-03-12 18:01:02,069 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2022-03-12 18:01:02,071 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2022-03-12 18:01:02,133 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2022-03-12 18:01:02,136 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2022-03-12 18:01:02,225 INFO  [PluginManager] Adding plugin from [C:\Users\user\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2022-03-12 18:01:02,906 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2022-03-12 18:01:02,907 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2022-03-12 18:01:02,945 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2022-03-12 18:01:02,946 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2022-03-12 18:01:02,986 INFO  [PluginManager] 2 plugins loaded in 2072 ms
+2022-03-12 18:01:02,988 INFO  [DefaultSoapUICore] All plugins loaded
+2022-03-12 18:01:04,173 INFO  [WsdlProject] Loaded project from [file:/C:/Users/user/Desktop/soap%20ui/my-app/calculator-soapui-project.xml]
+2022-03-12 18:01:04,182 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [calculator]
+2022-03-12 18:01:04,185 INFO  [SoapUITestCaseRunner] Running Project [calculator], runType = SEQUENTIAL
+2022-03-12 18:01:04,208 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add]
+2022-03-12 18:01:04,238 INFO  [SoapUITestCaseRunner] running step [Add]
+2022-03-12 18:01:05,885 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2022-03-12 18:01:05,931 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2022-03-12 18:01:05,938 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2022-03-12 18:01:05,941 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2022-03-12 18:01:05,949 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2022-03-12 18:01:05,956 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2022-03-12 18:01:05,964 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2022-03-12 18:01:05,969 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2022-03-12 18:01:05,971 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2022-03-12 18:01:05,980 INFO  [SchemaUtils] Added default schema from file:/C:/Users/user/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2022-03-12 18:01:05,981 INFO  [SchemaUtils] Loading schema types from [http://www.dneonline.com/calculator.asmx?WSDL]
+2022-03-12 18:01:05,985 INFO  [SchemaUtils] Getting schema http://www.dneonline.com/calculator.asmx?WSDL
+2022-03-12 18:01:06,282 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2022-03-12 18:01:06,282 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2022-03-12 18:01:06,284 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2022-03-12 18:01:06,290 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add], time taken: 2029ms, status: FINISHED
+2022-03-12 18:01:06,298 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Subtraction]
+2022-03-12 18:01:06,301 INFO  [SoapUITestCaseRunner] running step [Subtract]
+2022-03-12 18:01:06,675 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2022-03-12 18:01:06,676 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2022-03-12 18:01:06,680 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2022-03-12 18:01:06,682 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Subtraction], time taken: 373ms, status: FINISHED
+2022-03-12 18:01:06,691 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Multiplication]
+2022-03-12 18:01:06,694 INFO  [SoapUITestCaseRunner] running step [Multiply]
+2022-03-12 18:01:07,037 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2022-03-12 18:01:07,038 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2022-03-12 18:01:07,041 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2022-03-12 18:01:07,041 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Multiplication], time taken: 339ms, status: FINISHED
+2022-03-12 18:01:07,051 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Division]
+2022-03-12 18:01:07,053 INFO  [SoapUITestCaseRunner] running step [Division]
+2022-03-12 18:01:07,538 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2022-03-12 18:01:07,539 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2022-03-12 18:01:07,539 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2022-03-12 18:01:07,540 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Division], time taken: 484ms, status: FINISHED
+2022-03-12 18:01:07,545 INFO  [SoapUITestCaseRunner] Project [calculator] finished with status [FINISHED] in 3352ms
+2022-03-12 18:01:10,542 WARN  [Tools] Could not delete temporary directory C:\Users\user\AppData\Local\Temp\3a0f356c-8d7e-4853-93bc-3ab5aa701243
+2022-03-12 18:01:10,545 WARN  [Tools] Could not delete temporary directory C:\Users\user\AppData\Local\Temp\db4c1321-fb82-4682-829f-0d88018ada63
